@@ -1,9 +1,17 @@
-import { Button, Group } from "@mantine/core";
+import { Button, Container, Group } from "@mantine/core";
+import { ContactUs } from "../components/ContactUs";
+import { FeaturesTitle } from "../components/Features";
+import { HeroImageBackground } from "../components/Header";
 
 export default function IndexPage() {
   return (
-    <Group mt={50} position="center">
-      <Button size="xl">Welcome to Mantine!</Button>
-    </Group>
+    <>
+    <HeroImageBackground></HeroImageBackground>
+    <Container my="md">
+    <FeaturesTitle></FeaturesTitle>
+    <ContactUs></ContactUs>
+    </Container>
+    
+    </>
   );
 }
