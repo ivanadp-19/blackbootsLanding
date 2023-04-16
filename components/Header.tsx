@@ -107,7 +107,7 @@ export function HeroImageBackground() {
 
         <Container size={640}>
           <Text size="lg" className={classes.description}>
-          ut officia officia ad officia proident et ea reprehenderit consequat duis fugiat duis ut nostrud culpa amet dolore sit exercitation ex ad anim irure mollit officia deserunt 
+          Plataforma que permite conectar a dueños de maquinaria o servicios de construccion que busquen arrendar estas maquinas o servicios. Con un par de clicks cualquier constructor puede publicar y arrendar maquinaria de forma segura y transparente
           </Text>
         </Container>
 
